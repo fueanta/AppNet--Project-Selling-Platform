@@ -1,0 +1,119 @@
+body
+{
+	font-family: "Segoe UI";
+	background: #f2f2f2;
+	padding: 0;
+	margin: 0;
+}
+.logoBar{
+	height: 7vh;
+	width: 100%;
+	background: white;
+}
+.logoBar .logo{
+	font-size: 25px;
+	padding: 10px;
+}
+
+.sideMenu{
+	float: left;
+	width: 250px;
+	height: 150vh;
+	background: #424344;
+}
+
+.sideMenu ul{
+	list-style: none;
+	padding: 0;
+	padding-top: 100px;
+}
+.sideMenu ul li{
+	padding: 1px;
+}
+.sideMenu ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	width: 240px;
+	height: 50px;
+	opacity: 0.8;
+	padding: 2px;
+}
+.sideMenu ul li a:hover{
+	border: 1px solid white;
+}
+
+.accountDetails{
+	max-width: 800px;
+    margin: auto;
+	background: white;
+}
+.heading{
+	display: inline-block;
+	font-size: 25px;
+	padding: 30px;
+
+}
+.accountDetails hr{
+	display: block;
+	padding: 0;
+	height: 1px;
+	margin-top: -10px;
+}
+.accountDetails table{
+	table-layout: fixed;
+	width: 650px;
+	padding-left: 75px;
+
+}
+.accountDetails table tr td{
+	padding: 5px;
+	height: 30px;
+	width: 150px;
+	font-size: 17px;
+}
+
+.viewElements tr th{
+	color: darkgreen;
+}
+
+.viewElements tr td input[type=button],input[type=submit]{
+	border:0;
+	box-shadow: none;
+	color: black;
+	background: orange;
+	width: 140px;
+	height: 30px;
+}
+.viewElements tr td input[type=button]:hover,input[type=submit]:hover{
+	background: darkorange;
+}
+.viewUser tr td{
+	background: lightgreen;
+}
+.viewUser tr th{
+	font-size: 20px;
+	color: #969407;
+}
+.viewProject tr td{
+	background: lightblue;
+}
+.viewProject tr th{
+	font-size: 20px;
+	color: #969407;
+}
+.viewTransactions tr td{
+	background: lightyellow;
+}
+.viewTransactions tr th{
+	font-size: 20px;
+	color: #10d1c4;
+}
+.viewTransfer tr td{
+	background: #ddb5fc;
+}
+.viewTransfer tr th{
+	font-size: 20px;
+	color: #969407;
+}

@@ -1,0 +1,163 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #f2f2f2;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	background: white;
+	font-family: "Segoe UI";
+}
+.header .logo{
+	font-size: 25px;
+	padding-top: 10px;
+	padding-left: 150px;
+	text-transform: uppercase;
+}
+.header .logo .logoP1{
+	color: green;
+	float: left;
+}
+.header .logo .accountAccess{
+	float: right;
+	font-family: "Segoe UI";
+	padding-right: 50px;
+}
+.header .logo .accountAccess a{
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+	opacity: 0.7;
+	padding: 15px;
+	font-weight: 500;
+}
+.header .logo .accountAccess .signUp:hover{
+	color: green;
+}
+.header .logo .accountAccess .active{
+	background: green;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+.header .logo .accountAccess .active:hover{
+	background: darkgreen;
+}
+.section1 .categories{
+	padding-top: 5px;
+}
+.section1 .categories a{
+	text-decoration: none;
+	color: black;
+	font-family: "Segoe UI";
+	padding-left: 50px;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.section1 .categories a:hover{
+	color: green;
+}
+.section1 .categories input[type=text],input[type=submit]
+{
+	padding: 5px;
+	font-size: 17px;
+	border: none;
+	float: right;
+	margin-right: 15px;
+}
+.section1 .categories .searchButton:hover
+{
+	background: green;
+	color: white;
+}
+
+.creditCardForm {
+    max-width: 700px;
+    background-color: #fff;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: #4c4e56;
+}
+.creditCardForm label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.creditCardForm .heading h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4e56;
+}
+.creditCardForm .payment {
+    float: left;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    position: relative;
+}
+.creditCardForm .payment .form-group {
+    float: left;
+    margin-bottom: 15px;
+}
+.creditCardForm .payment .form-control {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+}
+.creditCardForm .owner {
+    width: 50%;
+    margin-right: 10px;
+}
+.creditCardForm .CVV {
+    
+}
+.creditCardForm #bank-field {
+    
+}
+.creditCardForm #card-number-field {
+    width: 100%;
+}
+.creditCardForm #expiration-date {
+    
+}
+.creditCardForm #credit_cards {
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+}
+.creditCardForm #pay-now {
+    width: 100%;
+    margin-top: 25px;
+}
+.creditCardForm .payment .btn {
+    width: 100%;
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: #2ec4a5;
+    color: white;
+}
+.creditCardForm .payment select {
+    padding: 10px;
+    margin-right: 15px;
+}
+.transparent {
+    opacity: 0.2;
+}
+@media(max-width: 650px) {
+    .creditCardForm .owner,
+    .creditCardForm .CVV,
+    .creditCardForm #expiration-date,
+    .creditCardForm #credit_cards {
+        width: 100%;
+    }
+    .creditCardForm #credit_cards {
+        text-align: left;
+    }
+}

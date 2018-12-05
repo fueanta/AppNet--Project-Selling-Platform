@@ -1,0 +1,161 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI";
+	background: #f2f2f2;
+}
+
+.header{
+	width: 100%;
+	font-size: 25px;
+	height: 7vh;
+	background: white;
+}
+
+.header ul{
+	font-size: 15px;
+	float: right;
+	list-style: none;
+	margin-right: 30px;
+}
+.header ul li{
+	list-style: none;
+	float: right;
+	padding-left: 30px;
+}
+.header ul li a{
+	text-decoration: none;
+	color: black;
+	opacity: 0.7;
+	font-weight: 500;
+}
+.header ul li a:hover{
+	color: grey;
+}
+.nav{
+	padding-top: 20px;
+	height: 9vh;
+}
+.nav .categories{
+	padding-top: 5px;
+}
+.nav .categories a{
+	text-decoration: none;
+	color: black;
+	font-family: "Segoe UI";
+	padding-left: 50px;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.nav .categories a:hover{
+	color: green;
+}
+.nav .categories input[type=text],input[type=submit]
+{
+	padding: 5px;
+	font-size: 17px;
+	border: none;
+	float: right;
+	margin-right: 15px;
+}
+.nav .categories input[type=submit]
+{
+	background: green;
+	color: white;
+	border-radius: 5px;
+	width: 100px;
+	height: 35px;
+}
+.nav .categories input[type=text]
+{
+	height: 35px;
+	width: 300px;
+	border-radius: 10px;
+	background: white;
+}
+.nav .categories .searchButton:hover
+{
+	background: darkgreen;
+}
+
+.bottom {
+    max-width: 650px;
+    margin: auto;
+    padding-left: 45px;
+}
+
+.bottom td {
+	width: 300px;
+	padding: 15px;
+}
+
+.accountDetails{
+	max-width: 600px;
+    margin: auto;
+	background: white;
+}
+.heading{
+	display: inline-block;
+	font-size: 25px;
+	padding: 30px;
+
+}
+.accountDetails hr{
+	display: block;
+	padding: 0;
+	height: 1px;
+	margin-top: -10px;
+}
+.accountDetails table{
+	table-layout: fixed;
+	width: 650px;
+	padding-left: 75px;
+
+}
+.accountDetails table tr td{
+	padding: 5px;
+	height: 30px;
+	width: 150px;
+	font-size: 17px;
+}
+.gap {
+	height: 10px;
+}
+.projects{
+	width: 100%;
+	background: white;
+	height: 300vh;
+}
+.projects input[type=button]{
+	float: right;
+	margin-top: 30px;
+	margin-right: 70px;
+	width: 150px;
+	border:none;
+	box-shadow: 0;
+	padding: 10px;
+	font-size: 15px;
+	background: green;
+	color: white;
+	letter-spacing: 2px;
+}
+.projects input[type=button]:hover{
+	background: darkgreen;
+}
+.projects .projectData{
+	width: 100%;
+}
+.projects .projectData p{
+	float: left;
+	padding-left: 100px;
+	width: 400px;
+	height: 400px;
+	text-align: center;
+}
+.projects .projectData p img{
+	width: 250px;
+	height: 250px;
+}

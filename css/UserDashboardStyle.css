@@ -1,0 +1,45 @@
+body
+{
+	font-family: "Segoe UI";
+	background: #f2f2f2;
+	padding: 0;
+	margin: 0;
+}
+.logoBar{
+	height: 7vh;
+	width: 100%;
+	background: white;
+}
+.logoBar .logo{
+	font-size: 25px;
+	padding: 10px;
+}
+
+.sideMenu{
+	float: left;
+	width: 350px;
+	height: 100vh;
+	background: #424344;
+}
+
+.sideMenu ul{
+	list-style: none;
+	padding: 0;
+	padding-top: 200px;
+}
+.sideMenu ul li{
+	padding: 1px;
+}
+.sideMenu ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	width: 345px;
+	height: 50px;
+	opacity: 0.8;
+	padding: 2px;
+}
+.sideMenu ul li a:hover{
+	border: 1px solid white;
+}
